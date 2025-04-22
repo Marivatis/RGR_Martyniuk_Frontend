@@ -1,0 +1,40 @@
+.price-card {
+    --special-color: #222222;
+
+    width: 360px;
+    aspect-ratio: 1/1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F2F2F2;    
+}
+
+.price-card .plan {
+    font-size: 18px;
+    color: var(--special-color);
+}
+
+.price-card .price {
+    font-size: 108px;
+    line-height: 124px;
+    letter-spacing: 8px;
+    color: var(--special-color);    
+}
+
+.price-card .period {
+    margin-bottom: 20px;
+}
+
+.price-card .button {
+    background-color: var(--special-color);    
+}
+
+@media screen and (max-width: 1024px) {
+    .price-card .price {
+        font-size: 90px;
+        line-height: 100px;
+    }
+}

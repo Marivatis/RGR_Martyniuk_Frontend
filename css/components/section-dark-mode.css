@@ -1,0 +1,49 @@
+.section-dark-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-bottom: 160px;
+}
+
+.section-dark-mode > *:not(.phone-photo) {
+    max-width: 600px;
+}
+
+.section-dark-mode .big-paragraph {
+    text-align: center;
+}
+
+.section-dark-mode .break {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+}
+
+.section-dark-mode .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.section-dark-mode .mode {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-dark-mode .mode:last-child {
+    margin-right: 0;
+}
+
+.section-dark-mode .logo {
+    max-width: 24px;
+    max-height: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.section-dark-mode .buttons .title {
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,14 @@
+.section-download {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-download .big-paragraph {
+    max-width: 600px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 30px;
+}
+

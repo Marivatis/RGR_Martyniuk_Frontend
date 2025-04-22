@@ -1,0 +1,31 @@
+.section-testimonials {
+    padding-bottom: 100px;
+    background-color: #F2F2F2;
+}
+
+.section-testimonials .big-paragraph {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666666;
+}
+
+.section-testimonials .inner {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-testimonials .inner:last-child {
+    margin-right: 0;
+}
+
+.section-testimonials .testimony-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-testimonials .testimony-card {
+        max-width: scale(0.9);
+    }
+}

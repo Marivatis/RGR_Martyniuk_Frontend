@@ -1,0 +1,38 @@
+.section-featured-info {
+    margin: 0;
+    padding: 80px 0;
+    justify-content: center;
+    text-align: center;
+    background-color: #FF5437;
+}
+
+.section-featured-info .list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.section-featured-info .item {
+    margin-right: 132px;  
+}
+
+.section-featured-info .item:last-child{
+    margin-right: 0;  
+}
+
+.section-featured-info .paragraph {
+    font-size: 96px;
+    line-height: 96px;
+}
+
+.section-featured-info .title {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-featured-info .paragraph {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}

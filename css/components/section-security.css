@@ -1,0 +1,29 @@
+.section-security {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 0;
+    background-color: #F2F2F2;
+}
+
+.section-security .inner {    
+    display: block;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    max-width: 420px;
+}
+
+.section-security .subtitle {
+    text-align: left;
+}
+
+.section-security .title {
+    text-align: left;
+}
+
+.section-security .paragraph {
+    color: #666666;
+}

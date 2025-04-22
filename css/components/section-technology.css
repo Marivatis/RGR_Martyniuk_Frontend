@@ -1,0 +1,28 @@
+.section-technology {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-bottom: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 0;
+}
+
+.section-technology .inner {    
+    display: block;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    max-width: 420px;
+}
+
+.section-technology .subtitle {
+    text-align: left;
+}
+
+.section-technology .title {
+    text-align: left;
+}
+
+.section-technology .paragraph {
+    color: #666666;
+}

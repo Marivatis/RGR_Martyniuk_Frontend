@@ -1,0 +1,22 @@
+.section-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.section-features .h2 {
+    max-width: 600px;
+}
+
+.section-features .inner {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-features .feature-card {
+    width: 30%;
+    margin: 8px;
+}

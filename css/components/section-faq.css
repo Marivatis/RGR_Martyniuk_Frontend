@@ -1,0 +1,33 @@
+.section-faq {
+    display: flex;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #E5E5E5;
+}
+
+.section-faq .subcontainer {
+    max-width: 1200px;
+}
+
+.section-faq .title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section-faq .subtitle {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.section-faq .inner {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 20px;
+    justify-content: center; 
+}
+
+.section-faq .question-answer {
+    max-width: calc(50% - 10px);
+}

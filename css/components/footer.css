@@ -1,0 +1,26 @@
+.footer {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.footer .logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 25px;
+}
+
+.footer .social-list {
+    margin-bottom: 25px;
+}
+
+.footer .paragraph {
+    color: #B1B1B1;
+}
+
+.footer .paragraph a {
+    font-weight: 200;
+    color: #222222;
+}
