@@ -9,3 +9,11 @@
     background: #222222;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+    .button {
+        padding: 13px 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

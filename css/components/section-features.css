@@ -20,3 +20,9 @@
     width: 30%;
     margin: 8px;
 }
+
+@media screen and (max-width: 1024px) {
+    .section-features .feature-card {
+        width: calc(50% - 38px);
+    }
+}

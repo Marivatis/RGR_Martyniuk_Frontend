@@ -32,7 +32,11 @@
 
 @media screen and (max-width: 1024px) {
     .section-featured-info .paragraph {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+    .section-featured-info .item {
+        margin-right: 60px;  
     }
 }

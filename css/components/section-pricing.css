@@ -16,10 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.section-pricing .price-card {
-    margin-right: 15px;
+    gap: 15px;
 }
 
 .section-pricing .price-card:nth-child(1) {
@@ -32,11 +29,16 @@
 
 .section-pricing .price-card:nth-child(3) {
     --special-color: #FF9209;
-    margin-right: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .section-pricing .price-card {
-        transform: scale(0.9);
+        width: calc(50% - 38px);
+        
+    }
+
+    .section-pricing .price-card .price {
+        font-size: 80px;
+        line-height: 90px;
     }
 }

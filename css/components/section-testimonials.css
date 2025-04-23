@@ -13,19 +13,11 @@
     display: flex;    
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.section-testimonials .inner:last-child {
-    margin-right: 0;
-}
-
-.section-testimonials .testimony-card {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    gap: 15px;
 }
 
 @media screen and (max-width: 1024px) {
     .section-testimonials .testimony-card {
-        max-width: scale(0.9);
+        width: calc(50% - 38px);
     }
 }

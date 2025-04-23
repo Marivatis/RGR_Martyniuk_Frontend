@@ -31,10 +31,3 @@
 .price-card .button {
     background-color: var(--special-color);    
 }
-
-@media screen and (max-width: 1024px) {
-    .price-card .price {
-        font-size: 90px;
-        line-height: 100px;
-    }
-}
