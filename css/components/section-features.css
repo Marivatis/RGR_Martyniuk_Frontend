@@ -10,6 +10,7 @@
 }
 
 .section-features .inner {
+    max-width: 1440px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;

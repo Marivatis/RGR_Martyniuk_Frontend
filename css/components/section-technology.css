@@ -10,7 +10,7 @@
 
 .section-technology .inner {    
     display: block;
-    margin-right: 30px;
+    margin-right: 100px;
     padding-bottom: 100px;
     max-width: 420px;
 }
@@ -25,4 +25,10 @@
 
 .section-technology .paragraph {
     color: #666666;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-technology .inner { 
+        margin-right: 50px;
+    }
 }

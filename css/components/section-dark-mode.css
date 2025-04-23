@@ -1,8 +1,7 @@
 .section-dark-mode {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding-bottom: 160px;
+    align-items: center;
 }
 
 .section-dark-mode > *:not(.phone-photo) {
