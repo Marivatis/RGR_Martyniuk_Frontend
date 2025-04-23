@@ -20,3 +20,9 @@
         width: calc(50% - 38px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-testimonials .testimony-card {
+        width: auto;
+    }
+}

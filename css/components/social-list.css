@@ -13,3 +13,10 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .social-list .item .icon {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -41,3 +41,14 @@
         line-height: 90px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-pricing .price-card {
+        width: 300px;       
+    }
+
+    .section-pricing .price-card .price {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}

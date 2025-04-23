@@ -19,7 +19,7 @@
     width: 86%;
     height: auto;
     left: 7%;
-    top: 4%;
+    top: 5%;
 }
 
 .phone-photo .frame {
@@ -40,5 +40,12 @@
         max-width: 260px;
         max-height: 360px;
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .phone-photo {
+        max-width: 220px;
+        max-height: 300px;
     }
 }

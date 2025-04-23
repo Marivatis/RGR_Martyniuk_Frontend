@@ -17,3 +17,11 @@
         line-height: 18px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .button {
+        padding: 12px 20px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

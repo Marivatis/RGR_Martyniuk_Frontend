@@ -32,3 +32,19 @@
         margin-right: 50px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-technology {
+        flex-direction: column;
+    }
+
+    .section-technology .inner {
+        width: 100%;
+        align-self: flex-start;
+        padding-bottom: 50px;
+    }
+
+    .section-technology .phone-photo {
+        align-self: flex-end;
+    }
+}

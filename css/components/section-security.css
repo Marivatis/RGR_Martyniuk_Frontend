@@ -33,3 +33,19 @@
         margin-left: 50px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-security {
+        flex-direction: column-reverse;
+    }
+
+    .section-security .inner {
+        width: 100%;
+        align-self: flex-end;
+        padding-bottom: 50px;
+    }
+
+    .section-security .phone-photo {
+        align-self: flex-start;
+    }
+}

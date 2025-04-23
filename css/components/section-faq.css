@@ -31,3 +31,9 @@
 .section-faq .question-answer {
     max-width: calc(50% - 10px);
 }
+
+@media screen and (max-width: 768px) {
+    .section-faq .question-answer {
+        max-width: 100%;
+    }
+}
