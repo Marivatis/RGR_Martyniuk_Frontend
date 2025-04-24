@@ -1,6 +1,6 @@
 .section-technology {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: end;
     margin-bottom: 0;
     padding-left: 8%;
@@ -28,6 +28,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .section-technology {
+        justify-content: space-around;        
+    }
+
     .section-technology .inner { 
         margin-right: 50px;
     }

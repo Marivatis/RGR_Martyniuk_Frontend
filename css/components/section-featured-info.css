@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    gap: 60px;
+    gap: 120px;
 }
 
 .section-featured-info .paragraph {
@@ -23,6 +23,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .section-featured-info .list {
+        gap: 60px;
+    }
+
     .section-featured-info .paragraph {
         font-size: 72px;
         line-height: 72px;
